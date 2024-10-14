@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 16px;
+}
+
+.etch-box {
+    border: 1px dashed black;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.row {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: stretch;
+    flex: 1 1 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;    
+    align-items: stretch;
+    justify-content: center;
+    width: 960px;
+    height: 960px;
+}
